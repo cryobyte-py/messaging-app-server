@@ -1,1 +1,11 @@
-{}
+{
+    "routes" : {
+        "/register" : "register:POST",
+        "/login" : "login:POST",
+        "/app" : "app:WS"
+    },
+    "config" : {
+        "databasePath" : "appserver//assets//database.db",
+        "envPath" : "appserver//assets//.env"
+    }
+}
